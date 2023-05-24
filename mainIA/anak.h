@@ -5,7 +5,7 @@ class anak {
 public:
 	string nama;
 	anak(string pNama) :nama(pNama) {         //konstruktor
-		cout << "Anak \"" << nama << "\" asa\n";
+		cout << "Anak \"" << nama << "\" ada\n";
 	}
 	~anak() {                                 //destruktor 
 		cout << "Anak \"" << nama << "\" tidak ada\n";

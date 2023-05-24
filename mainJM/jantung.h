@@ -5,10 +5,10 @@ using namespace std;
 
 class jantung {
 public:
-	jantung() {
+	jantung() {                         //konstruktor
 		cout << "jantung dihisupkan\n";
-	}
-	~jantung() {
+	} 
+	~jantung() {                        //destruktor 
 		cout << "jantung dimatikan\n";
 	}
 };

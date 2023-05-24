@@ -7,11 +7,11 @@ public:
 	string name;
 	jantung varJantung;
 	 
-	manusia(string pName)
+	manusia(string pName)                   //konstruktor
 		: name(pName) {
 		cout << name << "hidup\n";
 	}
-	~manusia() {
+	~manusia() {                           //destruktor 
 		cout << name << "mati\n";
 	}
 };

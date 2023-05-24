@@ -4,10 +4,10 @@
 class anak {
 public:
 	string nama;
-	anak(string pNama) :nama(pNama) {
+	anak(string pNama) :nama(pNama) {         //konstruktor
 		cout << "Anak \"" << nama << "\" asa\n";
 	}
-	~anak() {
+	~anak() {                                 //destruktor 
 		cout << "Anak \"" << nama << "\" tidak ada\n";
 	}
 };

@@ -4,17 +4,17 @@ using namespace std;
 
 class orang {
 public:
-	string nama;
+	string nama;    //member data 
 
-	orang(string pNama) :
+	orang(string pNama) :    //konstruktor
 		nama(pNama) {
 		cout << "orang dibuat\n" << endl;
 	}
-	~orang() {
+	~orang() {              //destruktor
 		cout << "orang dihapus\n" << endl;
 	}
 
-	int jumlah(int a, int b) {
+	int jumlah(int a, int b) {   //member function
 		return a + b;
 	}
 
@@ -36,3 +36,11 @@ public:
 		return "Hallo, nama saya" + nama + " dari sekolah " + sekolah + "\n\n";
 	}
 };
+int main() {
+	pelajar siswa1(" andi laksono", "SMAN 1 BANTUL");
+	cout << siswa1.perkenalan();
+	cout << "Hasil =" << siswa1.jumlah(10, 90) << endl;
+
+	return 0;
+}
+
